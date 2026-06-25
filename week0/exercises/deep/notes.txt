@@ -1,0 +1,14 @@
+What is the Answer to the Great Question of Life, the Universe, and Everything?
+42 or forty-two or forty two
+
+
+1. Deep asks
+2. User Input
+3. Return yes or no
+
+first I need to create an input for the user to type
+second, I need to state the answer expected
+third, I need to return yes or no based on the user input
+
+if user answers 42 or a variant of it, return YES
+If user answers anything besides 42, return NO
