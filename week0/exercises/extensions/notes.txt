@@ -1,0 +1,16 @@
+Extension converter to HTML
+
+List:
+.gif = image/gif
+.jpg = image/jpeg
+.jpeg = image/jpeg
+.png = image/png
+.pdf = application/pdf
+.txt = text/plain
+.zip = application/zip
+
+
+[IDEA] - Create a dictionary with all conversions of sufixes to make it simpler
+First, I need a function to take user input
+Second, I need to normalize the text inserted (lowercase and remove spaces)
+Third, I need to create a validation that will check the user_input and translate it or return none

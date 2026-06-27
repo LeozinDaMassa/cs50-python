@@ -1,0 +1,11 @@
+Gettings will have values:
+
+Gretting starts with "hello" = $0
+Gretting starts with "h", but is not "hello", = $20
+Gretting starts with anything else = $100
+
+
+First, I need a function to take user input
+Second, I need to normalize the text inserted (lowercase and remove spaces)
+Third, I will start a function to check each one of the 3 conditions for the result
+Last, I will print the amount based on the result from the previus function
