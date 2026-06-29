@@ -1,0 +1,25 @@
+
+In meal.py, implement a program that prompts the user for a time and outputs whether it’s breakfast time,
+lunch time, or dinner time. If it’s not time for a meal, don’t output anything at all.
+Assume that the user’s input will be formatted in 24-hour time as #:## or ##:##.
+And assume that each meal’s time range is inclusive. For instance, whether it’s 7:00, 7:01, 7:59, or 8:00,
+or anytime in between, it’s time for breakfast.
+
+Structure your program per the below, wherein convert is a function (that can be called by main) that converts time,
+a str in 24-hour format, to the corresponding number of hours as a float. For instance, given a time like "7:30"
+(i.e., 7 hours and 30 minutes), convert should return 7.5 (i.e., 7.5 hours).
+
+
+1. Get user input
+2. split into hour and minute
+3. Create ranges for breakfast, lunch and dinner times
+4. Create function that compares user input with ranges and returns an answer
+
+<>
+
+1. get user input
+2. create convert funcion that splits user input
+3. convert user input into float
+4. convert minutes into decimal
+5. main function calls convert
+6. main function 

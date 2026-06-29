@@ -1,0 +1,22 @@
+# challange
+
+x is an integer
+y is +, -, *, or /
+z is an integer
+
+For instance, if the user inputs 1 + 1, your program should output 2.0.
+Assume that, if y is /, then z will not be 0.
+
+Note that, just as python itself is an interpreter for Python,
+so will your interpreter.py be an interpreter for math!
+
+
+First, I need a function to take user input
+Second, I need to normalize the text inserted
+[Data from user input could be interpreted from a list of translations or
+ a function should be called for each of the three].
+Translate user input
+Make sure it will return only one decimal after
+Print result
+
+
